@@ -78,7 +78,7 @@ export default function Home() {
           <div className="feature-item">
             <div className="feature-image">
               <Image
-                src="/image/5122D95E-B4F0-4958-AEBB-9CF8399191AF.jpg"
+                src="/image/people.jpg"
                 alt="人が少ない"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -92,7 +92,7 @@ export default function Home() {
           <div className="feature-item">
             <div className="feature-image">
               <Image
-                src="/image/6123A3AD-45AB-42A0-B819-F2F6D8746906.jpg"
+                src="/image/nature.jpg"
                 alt="自然が近い"
                 fill
                 style={{ objectFit: 'cover' }}
@@ -106,7 +106,7 @@ export default function Home() {
           <div className="feature-item">
             <div className="feature-image">
               <Image
-                src="/image/647F5996-F7CC-4796-A7E2-A9A3A99771F1.jpg"
+                src="/image/heart.jpg"
                 alt="心がほどける"
                 fill
                 style={{ objectFit: 'cover' }}
