@@ -196,6 +196,7 @@ body {
 }
 
 .feature-image {
+    position: relative;
     width: 100%;
     max-width: 500px;
     height: 400px;
