@@ -180,7 +180,7 @@ export default function Home() {
 
       {/* インスタグラムへの導線（固定ボタン） */}
       <a
-        href="https://www.instagram.com/svj_travel_rao?igsh=bTRkd3d2MzJnaHNm&utm_source=qr"
+        href="instagram://user?username=svj_travel_rao"
         target="_blank"
         rel="noopener noreferrer"
         className="instagram-link"
