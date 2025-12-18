@@ -34,6 +34,15 @@ export default function Home() {
     setShowEmail(true)
   }
 
+  const handleInstagramClick = (e) => {
+    e.preventDefault()
+    const isMobileOrTablet = window.innerWidth <= 1024 // タブレット以下
+    const url = isMobileOrTablet
+      ? 'instagram://user?username=svj_travel_laolao'
+      : 'https://www.instagram.com/svj_travel_laolao'
+    window.open(url, '_blank', 'noopener,noreferrer')
+  }
+
   return (
     <main>
       {/* ファーストビュー */}
@@ -180,9 +189,8 @@ export default function Home() {
 
       {/* インスタグラムへの導線（固定ボタン） */}
       <a
-        href="instagram://user?username=svj_travel_laolao"
-        target="_blank"
-        rel="noopener noreferrer"
+        href="#"
+        onClick={handleInstagramClick}
         className="instagram-link"
         aria-label="Instagramでフォローする"
       >
