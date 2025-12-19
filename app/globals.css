@@ -14,6 +14,7 @@ html {
 body {
     font-family: var(--font-noto-sans), sans-serif;
     color: #2c3e2d; /* 深い緑 */
+    font-size: 18px; /* 基本フォントサイズを大きく */
     line-height: 1.8;
     overflow-x: hidden;
 }
@@ -93,8 +94,8 @@ body {
 
 .laos-text {
     font-family: var(--font-noto-sans), sans-serif;
-    font-size: clamp(1.4rem, 3vw, 1.8rem);
-    font-weight: 300;
+    font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+    font-weight: 600;
     color: #ffffff;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     letter-spacing: 0.15em;
@@ -105,8 +106,8 @@ body {
 
 .laos-japanese {
     font-family: var(--font-noto-sans), sans-serif;
-    font-size: clamp(1rem, 2.5vw, 1.3rem);
-    font-weight: 300;
+    font-size: clamp(1.3rem, 3vw, 1.7rem);
+    font-weight: 600;
     color: #ffffff;
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
     letter-spacing: 0.1em;
@@ -123,11 +124,11 @@ body {
     }
 
     .laos-text {
-        font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+        font-size: clamp(1.5rem, 3vw, 2rem);
     }
 
     .laos-japanese {
-        font-size: clamp(0.9rem, 2.2vw, 1.1rem);
+        font-size: clamp(1.2rem, 2.8vw, 1.5rem);
     }
 
     .laos-greeting-top {
@@ -143,8 +144,8 @@ body {
 
 .hero-title {
     font-family: var(--font-noto-serif), serif;
-    font-size: clamp(1.8rem, 5vw, 3.5rem);
-    font-weight: 400;
+    font-size: clamp(2.2rem, 6vw, 4.5rem);
+    font-weight: 700;
     color: #ffffff;
     line-height: 1.6;
     margin-bottom: 3rem;
@@ -160,8 +161,8 @@ body {
     padding: 1rem 2.5rem;
     text-decoration: none;
     border-radius: 50px;
-    font-size: clamp(0.9rem, 2.5vw, 1.1rem);
-    font-weight: 400;
+    font-size: clamp(1.1rem, 3vw, 1.4rem);
+    font-weight: 600;
     transition: all 0.3s ease;
     letter-spacing: 0.05em;
     border: none;
@@ -244,8 +245,8 @@ body {
 
 .empathy-text {
     font-family: var(--font-noto-serif), serif;
-    font-size: clamp(1.3rem, 4vw, 2rem);
-    font-weight: 300;
+    font-size: clamp(1.7rem, 5vw, 2.6rem);
+    font-weight: 600;
     color: #2c3e2d;
     line-height: 2;
     letter-spacing: 0.1em;
@@ -295,15 +296,16 @@ body {
 
 .feature-title {
     font-family: var(--font-noto-serif), serif;
-    font-size: clamp(1.5rem, 4vw, 2.2rem);
-    font-weight: 400;
+    font-size: clamp(1.9rem, 5vw, 2.8rem);
+    font-weight: 700;
     color: #2c3e2d;
     margin-bottom: 1rem;
     letter-spacing: 0.05em;
 }
 
 .feature-text {
-    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    font-size: clamp(1.3rem, 3vw, 1.6rem);
+    font-weight: 500;
     color: #5a6b5b;
     line-height: 2;
     letter-spacing: 0.05em;
@@ -358,8 +360,8 @@ body {
 
 .private-text {
     font-family: var(--font-noto-serif), serif;
-    font-size: clamp(1.5rem, 4vw, 2.5rem);
-    font-weight: 300;
+    font-size: clamp(1.9rem, 5vw, 3.2rem);
+    font-weight: 700;
     color: #ffffff;
     line-height: 2;
     letter-spacing: 0.1em;
@@ -415,8 +417,8 @@ body {
 
 .closing-text {
     font-family: var(--font-noto-serif), serif;
-    font-size: clamp(1.5rem, 4vw, 2.2rem);
-    font-weight: 300;
+    font-size: clamp(1.9rem, 5vw, 2.8rem);
+    font-weight: 600;
     color: #2c3e2d;
     line-height: 2;
     margin-bottom: 3rem;
@@ -431,8 +433,8 @@ body {
 
 .email-link {
     font-family: var(--font-noto-sans), sans-serif;
-    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
-    font-weight: 400;
+    font-size: clamp(1.3rem, 3vw, 1.7rem);
+    font-weight: 600;
     color: #2c3e2d;
     text-decoration: none;
     letter-spacing: 0.05em;
@@ -525,8 +527,8 @@ body {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     transition: all 0.3s ease;
     z-index: 1000;
-    font-size: 0.95rem;
-    font-weight: 500;
+    font-size: 1.1rem;
+    font-weight: 600;
     letter-spacing: 0.05em;
 }
 
@@ -552,7 +554,7 @@ body {
         bottom: 1.5rem;
         right: 1.5rem;
         padding: 0.875rem 1.25rem;
-        font-size: 0.875rem;
+        font-size: 1rem;
     }
 
     .instagram-link svg {
